@@ -1,11 +1,13 @@
 print ("Welcome to Atharva's Quiz")
-answer = input("Do you want to play my quiz? ")
-answer if != "yes":
-  quit ()
+play = input('Do you want to play ? ').lower()
+if play == 'yes':
+print ("Welcome again!")
 else:
-    print ("Let us start this quiz!")
-answer = input("What is the full form of Central Processing Unit? ")
-answer if == "CPU":
-print ("You got it right!")
-score = 1
-answer = input("Whatisthe")
+    quit ()
+    question_no += 1
+    question = input({question_no}. What does CPU stand for? ').lower()
+    if question == 'central processing unit':
+        score +=1
+        print('correct! you got 1 point')
+-> Print all the qns
+--> print str("score")  , to print the total score
