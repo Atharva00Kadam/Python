@@ -4,8 +4,8 @@ answer if != "yes":
   quit ()
 else:
     print ("Let us start this quiz!")
-answer = input("What is the full form of CPU? ")
+answer = input("What is the full form of Central Processing Unit? ")
 answer if == "CPU":
 print ("You got it right!")
 score = 1
-so on..
+answer = input("Whatisthe")
