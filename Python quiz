@@ -1,0 +1,11 @@
+print ("Welcome to Atharva's Quiz")
+answer = input("Do you want to play my quiz? ")
+answer if != "yes":
+  quit ()
+else:
+    print ("Let us start this quiz!")
+answer = input("What is the full form of CPU? ")
+answer if == "CPU":
+print ("You got it right!")
+score = 1
+so on..
