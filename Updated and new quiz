@@ -1,4 +1,4 @@
-print ("Welcome to Atharva's Quiz")
+print ("Welcome to _______'s Quiz")
 play = input('Do you want to play ? ').lower()
 if play == 'yes':
 print ("Welcome again!")
