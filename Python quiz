@@ -11,3 +11,4 @@ else:
         print('correct! you got 1 point')
 -> Print all the qns
 --> print str("score")  , to print the total score
+print("Thank you for playing the quiz!!!")
