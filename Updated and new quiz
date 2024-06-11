@@ -1,13 +1,14 @@
-print ("Welcome to _______'s Quiz")
-play = input('Do you want to play ? ').lower()
-if play == 'yes':
-print ("Welcome again!")
-else:
-    quit ()
-    question_no += 1
-    question = input({question_no}. What does CPU stand for? ').lower()
-    if question == 'central processing unit':
-        score +=1
-        print('correct! you got 1 point')
--> Print all the qns
---> print str("score")  , to print the total score
+import time
+for i in range(10,0,-1):
+    time.sleep(1)
+    print(i)
+print("Welcome to My Quiz")
+name = None
+while not name:
+    name = input("Enter your name:")
+print("Hello"+name+"! Are you ready?")
+answer = int(input("What is your favourite two digit number?"))
+print(answer)
+for i in range(answer):
+    print(i)
+print("All your numbers from 0 to"+answer+"Have been recorded!")
